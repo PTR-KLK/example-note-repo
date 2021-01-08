@@ -1,7 +1,7 @@
 ---
 title: "About this brain"
-date: "04-11-2020"
-last-modified: "08-01-2021"
+date: "2020-11-04"
+last-modified: "2021-01-08"
 excerpt: "Few words about this brain"
 ---
 

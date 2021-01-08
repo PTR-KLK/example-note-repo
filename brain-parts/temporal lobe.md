@@ -1,7 +1,7 @@
 ---
 title: "Temporal Lobe"
-date: "10-11-2020"
-last-modified: "10-11-2020"
+date: "2020-11-10"
+last-modified: "2020-11-10"
 excerpt: "This is temporal lobe"
 ---
 
