@@ -1,11 +1,11 @@
 ---
 title: "Brain"
 date: "04-11-2020"
-last-modified: "04-11-2020"
+last-modified: "08-01-2021"
 excerpt: "This is my electron brain"
 ---
 
-This is brain.
+This is electron brain.
 
 It has lobes:
 
