@@ -1,7 +1,7 @@
 ---
 title: "Brain"
 date: "2020-11-04"
-last-modified: "2021-01-08"
+last-modified: "2021-01-10"
 excerpt: "This is my electron brain"
 ---
 
@@ -15,3 +15,5 @@ It has lobes:
 - [[occipital lobe]]
 
 More info [[about]] this brain.
+
+Example brain update.
