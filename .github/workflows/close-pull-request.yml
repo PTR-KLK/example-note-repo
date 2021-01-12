@@ -1,6 +1,6 @@
 # Teardown preview page on close pull request 
 
-name: electron-brain-teardown-preview
+name: electron-brain-preview
 on: 
   pull_request:
       types: [closed]
