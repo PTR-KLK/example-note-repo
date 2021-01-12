@@ -17,9 +17,6 @@ jobs:
         uses: mb2dev/github-action-comment-pull-request@1.0.0
         with:
           message: |
-            example url: [https://surge.sh/](https://surge.sh/) 
-            branch ${{github.head_ref}}
-            run_number: ${{github.run_number}}
-            repository_owner: ${{github.repository_owner}}
-            workflow: ${{github.workflow}}
+            Preview available (soon) at:
+            [Preview URL](https://surge.sh/${{github.repository_owner}}-${{github.workflow}}-${{github.head_ref}}-run-${{github.run_number}})
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
