@@ -13,6 +13,7 @@ It has lobes:
 - [[temporal lobe]]
 - [[parietal lobe]]
 - [[occipital lobe]]
+- [[secret lobe]]
 
 More info [[about]] this brain.
 

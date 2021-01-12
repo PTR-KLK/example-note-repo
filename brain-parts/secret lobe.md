@@ -1,0 +1,8 @@
+---
+title: "Secret Lobe"
+date: "2021-01-12"
+last-modified: "2021-01-12"
+excerpt: "This is secret lobe"
+---
+
+Secret lobe contents.
