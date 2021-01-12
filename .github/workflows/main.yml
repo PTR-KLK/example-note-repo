@@ -1,6 +1,7 @@
-Dispatch push event to PTR-KLK/electron-brain repository
+# Dispatch push event to PTR-KLK/electron-brain repository
 
 name: Dispatch to Electron Brain
+
 on:
   push:
     branches:
