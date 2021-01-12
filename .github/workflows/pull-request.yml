@@ -1,0 +1,20 @@
+# Dispatch pull request event to PTR-KLK/electron-brain repository and add comment with url
+
+name: Dispatch pull request to Electron Brain
+on: 
+  pull_request:
+      types: [opened, synchronize]
+
+jobs:
+  build:
+    name: Comment a pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Comment a pull_request
+        uses: mb2dev/github-action-comment-pull-request@1.0.0
+        with:
+          message: message ${{ github.ref }}
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
