@@ -16,5 +16,10 @@ jobs:
       - name: Comment a pull_request
         uses: mb2dev/github-action-comment-pull-request@1.0.0
         with:
-          message: message ${{ github.ref }}
+          message: |
+            example url: [https://surge.sh/](https://surge.sh/) 
+            message ${{ github.ref }}
+            run_id: ${{github.run_id}}
+            repository_owner: ${{github.repository_owner}}
+            workflow: ${{github.workflow}}
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
