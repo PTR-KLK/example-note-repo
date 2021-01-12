@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: teardown
-        uses: adrianjost/actions-surge.sh-teardown
+        uses: adrianjost/actions-surge.sh-teardown@master
         with:
           regex: '${{github.repository_owner}}-${{github.workflow}}-${{github.head_ref}}'
         env:
