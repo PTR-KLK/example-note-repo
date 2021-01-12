@@ -6,3 +6,5 @@ excerpt: "Example note"
 ---
 
 This is example note.
+
+Example note update.
