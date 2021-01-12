@@ -11,20 +11,16 @@ jobs:
     name: Dispatch preview-note event
     runs-on: ubuntu-latest
     steps:
-      - name: Repository Dispatch
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Dispatch
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: PTR-KLK/electron-brain
           event-type: preview-note
-          client-payload: '{"repository_owner": "${{ github.repository_owner }}", "workflow": "${{ github.workflow }}", "head_ref": "${{github.head_ref}}", "run_number: "${{ github.run_number }}"}'
-
-  comment:
-    name: Comment a pull_request
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+          client-payload: '{"repository_owner": "${{ github.repository_owner }}", "workflow": "${{ github.workflow }}", "head_ref": "${{github.head_ref}}", "run_number": "${{ github.run_number }}"}'
 
       - name: Comment a pull_request
         uses: mb2dev/github-action-comment-pull-request@1.0.0
