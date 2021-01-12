@@ -8,9 +8,3 @@ excerpt: "This is secret lobe"
 Secret lobe contents.
 
 Secret lobe example update.
-
-Another secret lobe example update.
-
-Yet another secret lobe example update.
-
-Yet yet another secret lobe example update.
