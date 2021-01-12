@@ -6,7 +6,20 @@ on:
       types: [opened, synchronize]
 
 jobs:
-  build:
+
+  dispatch:
+    name: Dispatch preview-note event
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          repository: PTR-KLK/electron-brain
+          event-type: preview-note
+          client-payload: '{"repository_owner": "${{ github.repository_owner }}", "workflow": "${{ github.workflow }}", "head_ref": "${{github.head_ref}}", "run_number: "${{ github.run_number }}"}'
+
+  comment:
     name: Comment a pull_request
     runs-on: ubuntu-latest
     steps:
@@ -18,5 +31,5 @@ jobs:
         with:
           message: |
             Preview available (soon) at:
-            [Preview URL](https://surge.sh/${{github.repository_owner}}-${{github.workflow}}-${{github.head_ref}}-run-${{github.run_number}})
+            [Preview URL](https://${{github.repository_owner}}-${{github.workflow}}-${{github.head_ref}}-run-${{github.run_number}}.surge.sh)
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
