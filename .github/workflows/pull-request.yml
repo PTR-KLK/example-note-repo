@@ -1,6 +1,6 @@
 # Dispatch pull request event to PTR-KLK/electron-brain repository and add comment with url
 
-name: Dispatch pull request to Electron Brain
+name: electron-brain-preview
 on: 
   pull_request:
       types: [opened, synchronize]
@@ -18,8 +18,8 @@ jobs:
         with:
           message: |
             example url: [https://surge.sh/](https://surge.sh/) 
-            message ${{ github.ref }}
-            run_id: ${{github.run_id}}
+            branch ${{github.head_ref}}
+            run_number: ${{github.run_number}}
             repository_owner: ${{github.repository_owner}}
             workflow: ${{github.workflow}}
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
