@@ -7,6 +7,9 @@ excerpt: "This is my electron brain"
 
 This is electron brain.
 
+![brain network](images/network.jpg)
+<span>Photo by <a href="https://unsplash.com/@jjying?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">JJ Ying</a> on <a href="https://unsplash.com/s/photos/network?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 It has lobes:
 
 - [[frontal lobe]]
@@ -18,3 +21,4 @@ It has lobes:
 More info [[about]] this brain.
 
 [[example note]]
+
