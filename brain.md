@@ -1,14 +1,14 @@
 ---
 title: "Brain"
 date: "2020-11-04"
-last-modified: "2021-01-10"
+last-modified: "2021-01-13"
 excerpt: "This is my electron brain"
 ---
 
 This is electron brain.
 
 ![brain network](images/network.jpg)
-<span>Photo by <a href="https://unsplash.com/@jjying?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">JJ Ying</a> on <a href="https://unsplash.com/s/photos/network?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+Photo by [JJ Ying](https://unsplash.com/@jjying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/network?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 It has lobes:
 
@@ -21,4 +21,3 @@ It has lobes:
 More info [[about]] this brain.
 
 [[example note]]
-
